@@ -6,11 +6,8 @@
 trigger:
 - '*'
 
-pool:
-  vmImage: 'ubuntu-18.04'
-  demands:
-  - npm
-  
+pool: 'azure-vm'
+
 variables:
   buildConfiguration: 'Release'
 
